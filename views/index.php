@@ -8,18 +8,18 @@
         rel="stylesheet" 
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
         crossorigin="anonymous">
-    <link rel="stylesheet" href="public/style.css">
+    <link rel="stylesheet" href="../public/style.css">
     <title>Kalkulator</title>
 </head>
 <body>
     <!-- Container to hold input forms -->
     <div class="container my-3">
         <div class="row justify-content-center">
-            <img src="public/img/kalkulator.png" alt="" style="width:10em">
+            <!-- <img src="public/img/kalkulator.png" alt="" style="width:10em"> -->
             <h1 class="text-center">Simple Calculator</h1>
 
-            <div class="form-group">
-                <form action="index.php" class="card px-4" method="post" id="formItem">
+            <div class="form-group w-md-75">
+                <form action="../views/index.php" class="card px-4" method="post" id="formItem">
 
                     <!-- First number input form -->
                     <div class="form-floating shadow mt-5">
@@ -67,11 +67,11 @@
             
             echo 
                 //Displays the result of the input using each function
-                "<div class='container my-3'>
-                    <div class='row'>
+                "<div class='container px-4 my-3 w-md-50'>
+                    <div class='form-group px-4 card row'>
                         <p>First Number: ".$firstNumber."</p>  
                         <p>Second Number: ".$secondNumber."</p>
-                        <p>===============================</p>
+                        <p>--------------------------------</p>
                         <br>
                         <p>The sum result is : ".summary($firstNumber, $secondNumber)."</p>
                         <p>The result of division is : ".division($firstNumber, $secondNumber)."</p>

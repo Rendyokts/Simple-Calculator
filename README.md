@@ -40,7 +40,6 @@ Tugas4_no2
  ┃ ┃ ┗ 📜style.css
  ┃ ┗ 📂views
  ┃   ┗ 📜index.php
- ┃ 
  ┣ 📜README.md
  ┗ 📜.git
 
