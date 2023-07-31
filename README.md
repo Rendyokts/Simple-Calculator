@@ -9,6 +9,7 @@ Simple calculator is a website that can be used to calculate two numbers, such a
 - division operation
 
 ## Tech 
+
 Simple Calculator built with : 
 * VSCODE (https://code.visualstudio.com/) - Visual Studio Code is Microsoft's source-code editing software
 
